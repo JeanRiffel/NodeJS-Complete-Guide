@@ -1,0 +1,14 @@
+.product-form{
+    width: 30rem;
+    max-width: 90%;
+    margin:auto; 
+}
+.form-control label,
+.form-control input{
+     display: block; 
+}
+
+.form-control input{
+    border: 1px, solid, #620043;
+    border-radius : 2px;
+}
