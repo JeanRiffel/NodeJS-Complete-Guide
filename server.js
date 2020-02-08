@@ -14,7 +14,7 @@ app.use('/admin',adminData.routes);
 app.use(shopRouter);
 
 app.use((req, res, next)=>{    
-    res.status(404).render('404', {title : 'Page not found'});
+    res.status(404).render('404', {pageTitle : 'Page not found'});
 });
 
 app.listen(3000, ()=>{console.log('Server is Running!');});
