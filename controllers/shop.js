@@ -5,12 +5,11 @@ exports.getProducts = (req, res, next)=>{
         res.render('./shop/product-list', {
             prods: products,
             pageTitle: 'shop',
-            path: '/',
+            path: '/products',
             hashProducts: products.length > 0,
             activeShop: true,
             productCSS: true
         });   
-
     });
 }
 
